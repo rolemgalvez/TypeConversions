@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convertables", "Convertables\Convertables.csproj", "{CAFF59FB-EE45-4703-9F81-39FE5AB34019}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Convertables", "Convertables\Convertables.csproj", "{CAFF59FB-EE45-4703-9F81-39FE5AB34019}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Represent", "Represent\Represent.csproj", "{B9EC4866-EA8C-4B19-97D1-E93B2D1629CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Represent", "Represent\Represent.csproj", "{B9EC4866-EA8C-4B19-97D1-E93B2D1629CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transform", "Transform\Transform.csproj", "{5206C4CC-AE35-4065-8B6E-CDA7F8B8B694}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exchange", "Exchange\Exchange.csproj", "{36C8AA28-3AB2-4B77-A22A-9DF9791D2388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flip", "Flip\Flip.csproj", "{4E37AEA8-6AAE-4314-9347-8B59911DAC01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{B9EC4866-EA8C-4B19-97D1-E93B2D1629CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9EC4866-EA8C-4B19-97D1-E93B2D1629CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9EC4866-EA8C-4B19-97D1-E93B2D1629CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5206C4CC-AE35-4065-8B6E-CDA7F8B8B694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5206C4CC-AE35-4065-8B6E-CDA7F8B8B694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5206C4CC-AE35-4065-8B6E-CDA7F8B8B694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5206C4CC-AE35-4065-8B6E-CDA7F8B8B694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36C8AA28-3AB2-4B77-A22A-9DF9791D2388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C8AA28-3AB2-4B77-A22A-9DF9791D2388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C8AA28-3AB2-4B77-A22A-9DF9791D2388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C8AA28-3AB2-4B77-A22A-9DF9791D2388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E37AEA8-6AAE-4314-9347-8B59911DAC01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E37AEA8-6AAE-4314-9347-8B59911DAC01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E37AEA8-6AAE-4314-9347-8B59911DAC01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E37AEA8-6AAE-4314-9347-8B59911DAC01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
